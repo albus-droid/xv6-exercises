@@ -24,17 +24,14 @@ Run the program from the xv6 shell:
       (nothing happens for a little while)
       $
 ```    
-
 Your program should pause when run as shown above. Run make grade in your command line (outside of qemu) to see if you pass the sleep tests.
 
 Note that make grade runs all tests, including the ones for the tasks below. If you want to run the grade tests for one task, type:
 
-     `$ ./grade-lab-util sleep`
-   
-
+     $ ./grade-lab-util sleep
+     
 This will run the grade tests that match "sleep". Or, you can type:
 
-     `$ make GRADEFLAGS=sleep grade`
-   
-
+     $ make GRADEFLAGS=sleep grade
+     
 which does the same. 
